@@ -39,7 +39,7 @@ Set your SerpAPI key (either via environment variable or paste it into the app f
 
 Run the app
 ```bash
-python gui_product_finder.py
+python main.py
 ```
 
 ---
@@ -78,7 +78,7 @@ Tips
 
 ## Files
 
-- `gui_product_finder.py` — Tkinter GUI application.
+- `main.py` — Tkinter GUI application.
 - `requirements.txt` — Minimal runtime dependencies.
   - `requests`
   - `beautifulsoup4`
@@ -107,7 +107,7 @@ Tips
 Create a single-file executable with PyInstaller:
 ```bash
 pip install pyinstaller
-pyinstaller --noconfirm --onefile --windowed gui_product_finder.py
+pyinstaller --noconfirm --onefile --windowed main.py
 ```
 - The binary will be in `dist/`.
 - On Windows, `--windowed` prevents a console window from opening.
@@ -137,11 +137,6 @@ pyinstaller --noconfirm --onefile --windowed gui_product_finder.py
 
 ---
 
-## License
-
-Specify a license for your repository (e.g., MIT, Apache-2.0). If you’re unsure, MIT is a common permissive choice.
-
----
 
 ## Acknowledgements
 
